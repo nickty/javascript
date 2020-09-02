@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="add()">Click Me</button>
+    
+    <div id="demo"></div>
+
+    <script>
+        let x = {
+            name: 'Toyota', 
+            color: 'white', 
+            model: 5000,
+
+            run : function(){
+                console.log('The car name is: '+this.name + ' and color is '+this.color); 
+            }
+        }; 
+
+        x.run(); 
+
+
+        let big = [2,1,2,32,3,34,4,53,3,23,2]; 
+
+        console.log(big.sort()); 
+
+        function add(){
+            let add = 10; 
+            target.innerHTML = add; 
+        }
+        
+    </script>
+</body>
+</html>
